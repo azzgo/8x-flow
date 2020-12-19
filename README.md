@@ -144,6 +144,7 @@
 - 其他字段同上
 - 每一个 fulfillment 都会产生 Request/Confirmation 凭证（evidence），如果要补充更多的数据或者如果要补充他们和其他角色的关系，可以在增加 evidences 进一步阐释，比方说 案例一的如果要补充更多的细节：
 ```yaml
+
 - contract: Order
   key_timestamps: placed_at
   participants: _Customer, Account, Address
@@ -185,7 +186,7 @@
   key_timestamps: confirmed_at
   key_data: total
   participants: _Online Payment
-  plays: _Online Payment Confirmation
+  plays: _Order Payment Confirmation
 
 - thing: Product
   relates: SKU
