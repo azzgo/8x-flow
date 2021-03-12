@@ -199,4 +199,8 @@
 ```
 - Transaction 和 Online Payment Confirmation 作为证据 (evidence)，跟作为角色的 _Online Payment Confirmation(variform: yes) 产生互动
 - 第三方系统（system）可以作为角色
-- 标的物 Product 可以通过 thing 的方式生命
+- 标的物 Product 可以通过 thing 的方式声明
+- 参与方可以通过 thing 的方式声明
+- 领域角色化可以有 domain 声明
+  key_data: totalf还
+  key_data: total
