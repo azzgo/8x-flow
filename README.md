@@ -202,5 +202,4 @@
 - 标的物 Product 可以通过 thing 的方式声明
 - 参与方可以通过 thing 的方式声明
 - 领域角色化可以有 domain 声明
-  key_data: totalf还
-  key_data: total
+
